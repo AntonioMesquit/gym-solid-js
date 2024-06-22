@@ -3,6 +3,8 @@
     "@rocketseat/eslint-config/node"
   ],
   "rules": {
+    "camelcase": "error", 
+    "no-useless-constructor": "off",
     "prettier/prettier": [
       "error",
       {
