@@ -9,7 +9,7 @@ export class PrismaUsersRepository implements UsersRepository {
     password_hash: string;
     created_at: Date;
   } | null> {
-    throw new Error("Method not implemented.");
+    throw new Error(`Method not implemented. ${id}`);
   }
 
   async findByEmail(email: string) {
